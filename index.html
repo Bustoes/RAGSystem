@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>AI Scene</title>
+    <link rel="icon" type="image/icon" href="https://luvi.gitee.io/ai/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="AI助手，ai问答">
+    <style>
+        *,
+        body,
+        html {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* 1,滚动条 */
+        ::-webkit-scrollbar {
+            width: 0px;
+            /* 纵向滚动条 宽度 */
+            height: 0px;
+            /* 横向滚动条 高度 */
+        }
+
+        /* 5,滑块 */
+        ::-webkit-scrollbar-thumb {
+            background: #b1b1b1;
+            min-height: 50px;
+            max-height: 100vh;
+        }
+
+
+
+        .loading {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loading img {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="loading">
+            <img src="./static/images/loding.gif" alt="" srcset="">
+        </div>
+    </div>
+</body>
+
+</html>
